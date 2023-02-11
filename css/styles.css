@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(/source/marvelan/ttf/marvelan-marvelan-400.ttf);
+    src: url(marvelan-marvelan-400.ttf);
  }
 
 body {
