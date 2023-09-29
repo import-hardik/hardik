@@ -3,12 +3,13 @@
     src: url(marvelan-marvelan-400.ttf);
  }
 
+
 body {
     justify-content: center;
     align-items: center;
     background:#483544;
     margin: 0;
-    font-family: myFirstFont;
+    font-family: 'Pixelify Sans', cursive;
 }
 
 .hvr-grow {
