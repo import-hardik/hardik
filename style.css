@@ -82,7 +82,27 @@ nav.sticky .menu a:hover{
 nav.sticky .media-icons a{
   color: #FFF;
 }
+@media (orientation: portrait) {
+  .home {
+    background: url("Images/background-port.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
 
+@media (orientation: landscape) {
+  .text-two {
+    display: none; /* Hide the text in portrait mode */
+  }
+  .text-port::after {
+    content: "I'm Hardik Verma";
+    color: #0E2431;
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+}
 
 nav .menu-btn,
 .navbar .menu .cancel-btn{
