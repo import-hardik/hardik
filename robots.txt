@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://hardikverma.tech/sitemap.xmlv
+Sitemap: https://hardikverma.tech/sitemap.xml
